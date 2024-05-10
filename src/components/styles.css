@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.gstatic.com/s/inter/v4/UcCjoChc6WW2-XeWpBWQ5YEJW5Q3pTYrmZyveLwkRzg.woff2') format('woff2');
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+/* header */
+.button-container {
+  display: flex;
+  background-color: #FFF0DA;
+  justify-content: space-between;
+}
+
+  /* header button */
+  .button {
+    border: none;
+    color: #000;
+    background-color: #FFF0DA;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+/* role title */
+h1 {
+    color: #000;
+    font-size: 16px;
+    padding-top: 2%;
+    text-align: left;
+    
+  }
+/* role description */
+  h6 {
+    color: #000;
+    font-size: 15px;
+    text-align: left;
+    
+  }
+
+  /* intro description */
+  h2 {
+    color: #000;
+    font-size: 16px;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+    height: 100px;
+    
+  }
+
+  /* big header */
+  h3 { 
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    height: 50px;
+    padding-top: 2%;
+    
+  }
+
+  /* footer */
+  h5 {
+    color: #000;
+    background-color: #FfF0DA;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+  }
+
+/* roles */
+  .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    /* column-gap: 100px; */
+   }
+   
+   img {
+    padding-left: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+   }
+   
+   html {
+    scroll-behavior: smooth;
+   }
+   
+   
+   #down {
+    margin-top: 100%;
+    padding-bottom: 25%;
+   } 
