@@ -4,6 +4,7 @@ import './styles.css'; // Path to your CSS file
 
 
 const Roles =({roleName, description, picture}) => {
+
     return (
     <div className="outer-container">
       <div class="container">

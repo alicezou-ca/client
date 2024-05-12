@@ -1,8 +1,12 @@
-import React from "react";
 import './styles.css'; // Path to your CSS file 
+import React, { useState } from "react";
 
 
 const Intro =() => {
+
+    const [state, setState] = useState(false);
+
+
     return (
         <>
             <h3>- Hey. 👋 I’m Alice Zou</h3>
@@ -12,9 +16,13 @@ const Intro =() => {
                 languages such as Java, Python, HTML, CSS, and JavaScript, along with hands-on experience in software development 
                 methodologies.</h2>
             <div className="icon-group">
-                <button className="icon">gmail</button>
-                <button className="icon">linkedin</button>
-                <button className="icon">github</button>
+                    <button className="icon">gmail</button>
+                <a href="https://linkedin.com/in/alice-zou1"target="_blank" rel="noopener noreferrer" >
+                    <button className="icon">linkedin</button>
+                </a>
+                <a href="https://github.com/alicezou-ca"target="_blank" rel="noopener noreferrer" >
+                    <button className="icon">github</button>
+                </a>
             </div>
         </>
 
