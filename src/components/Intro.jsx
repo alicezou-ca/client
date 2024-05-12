@@ -16,7 +16,9 @@ const Intro =() => {
                 languages such as Java, Python, HTML, CSS, and JavaScript, along with hands-on experience in software development 
                 methodologies.</h2>
             <div className="icon-group">
+            <a href="mailto:alicezou.ca@gmail.com" target="_blank" rel="noopener noreferrer" >
                     <button className="icon">gmail</button>
+                </a>
                 <a href="https://linkedin.com/in/alice-zou1"target="_blank" rel="noopener noreferrer" >
                     <button className="icon">linkedin</button>
                 </a>
@@ -25,7 +27,6 @@ const Intro =() => {
                 </a>
             </div>
         </>
-
         //include icons and stuff here too
     )
 }
