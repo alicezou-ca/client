@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import './styles.css'; // Path to your CSS file 
 
+
 const Header =() =>{
+
+    function scrollAbout() {
+        window.scrollTo(0, 130);
+    }  
+
+    function scrollExperience() {
+        window.scrollTo(50, 350);
+    } 
+    
+    function scrollProjects() {
+        window.scrollTo(50, 700);
+    }
+
     return(
+        
         <div class="button-container">
-            <button class="button">About</button>
-            <button class="button">Experience</button>
-            <button class="button">Projects</button>
+
+            <button className="button" onClick={scrollAbout}>About</button>
+            <button className="button" onClick={scrollExperience}>Experience</button>
+            <button className="button" onClick={scrollProjects}>Projects</button>
+            
+            
         </div>
         
     )

@@ -2,6 +2,7 @@ import React from "react";
 import Roles from "./Roles";
 import robotics from "./images/robotics.png"
 import satellite from "./images/satellite.jpeg"
+import wecs from "./images/wecs.png"
 import './styles.css'; // Path to your CSS file 
 
 const RolesLayout =() => {
@@ -18,7 +19,7 @@ const RolesLayout =() => {
                leading the collaborations between WECS and numerous other organizations across Western Canada. 
                As a member of the core team, another important part of my role is to work together with my teammates 
                in order to determine how to best move forward with crucial decisions regarding our organization. "
-               picture={satellite}/>
+               picture={wecs}/>
         <Roles roleName="UVSD Computer Team Member" 
                description="As a member of the UVIC Satellite Design club, I’ve received valuable insight into projects in the 
                aerospace industry in the research and development process of the 2023/2024 weather balloon. This summer, I plan 
