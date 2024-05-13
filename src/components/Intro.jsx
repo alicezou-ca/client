@@ -1,6 +1,7 @@
 import './styles.css'; // Path to your CSS file 
 import React from "react";
 import wecs from "./images/wecs.png"
+import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
 
 const Intro =() => {
 
@@ -22,9 +23,11 @@ const Intro =() => {
                     <button className="icon">linkedin</button>
                 </a>
                 <a href="https://github.com/alicezou-ca"target="_blank" rel="noopener noreferrer" >
-                    <button className="icon"><image>{wecs}</image></button>
+                    <button className="icon"></button>
                 </a>
+                <ThreeDRotation>test</ThreeDRotation>
             </div>
+            
         </>
         //include icons and stuff here too
     )
