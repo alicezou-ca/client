@@ -4,7 +4,7 @@ import Header from './Header';
 import Intro from './Intro';
 import RolesLayout from './RolesLayout';
 
-const Layout =({children}) =>{
+const Layout =() =>{
     return(
         <div>
         <Header/>

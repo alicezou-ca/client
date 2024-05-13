@@ -1,10 +1,9 @@
 import './styles.css'; // Path to your CSS file 
-import React, { useState } from "react";
-
+import React from "react";
+import wecs from "./images/wecs.png"
 
 const Intro =() => {
 
-    const [state, setState] = useState(false);
 
 
     return (
@@ -23,7 +22,7 @@ const Intro =() => {
                     <button className="icon">linkedin</button>
                 </a>
                 <a href="https://github.com/alicezou-ca"target="_blank" rel="noopener noreferrer" >
-                    <button className="icon">github</button>
+                    <button className="icon"><image>{wecs}</image></button>
                 </a>
             </div>
         </>

@@ -10,11 +10,11 @@ const Roles =({roleName, description, picture}) => {
       <div class="container">
         <div class="rectangle">
             <img src={picture} alt="Image"/>
-        <div>
-          <h1>{roleName}</h1>
-          <h6>{description}</h6>
+          <div>
+            <h1>{roleName}</h1>
+            <h6>{description}</h6>
+          </div>
         </div>
-      </div>
       </div>
     </div>
 
