@@ -1,5 +1,4 @@
 import React, { Children } from "react";
-import satellite from "./images/satellite.jpeg"
 import './styles.css'; // Path to your CSS file 
 
 

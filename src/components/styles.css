@@ -36,12 +36,14 @@ body {
 /* intro buttons */
   .icon {
     margin: 0 5px;
+    background-color: #FFF0DA;
   }
 
 .icon-group {
   display: flex;
     justify-content: center; /* Center horizontally */
 }
+
 /* role title */
 h1 {
     color: #000;

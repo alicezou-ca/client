@@ -9,11 +9,11 @@ const Header =() =>{
     }  
 
     function scrollExperience() {
-        window.scrollTo(50, 350);
+        window.scrollTo(0, 400);
     } 
     
     function scrollProjects() {
-        window.scrollTo(50, 700);
+        window.scrollTo(50, 1000);
     }
 
     return(
